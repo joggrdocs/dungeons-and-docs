@@ -23,7 +23,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 
 **Problem:** *\[Briefly explain the pain point]* **Solution:** *\[How your app fixes it in a simple sentence]*
 
-## 🎭 Meme Format (Bonus Points!)\*\*
+## 🎭 Meme Format (Bonus Points!)
 
 <table class="dashdraft-table">
   <tbody>
