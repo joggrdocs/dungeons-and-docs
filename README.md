@@ -10,7 +10,13 @@
 <br />
 
 ## Holocron of Documentation: May the Code Be With You
+Welcome to the Docs Templates repository—our very own “Holocron of Documentation” (think Jedi Archives, but for project docs). This is where we stash:
 
-Welcome to the Docs Templates repository—our very own “Holocron of Documentation” (think Jedi Archives, but for project docs). This is where we stash our battle-tested templates, guides, and how-tos to help you conquer daily development quests faster than you can type git clone. Whether you’re slaying bugs, launching interstellar deployments, or just need the perfect README format, you’ll find your trusty spell scrolls right here.
+- Battle-tested templates
+- Guides and how-tos
+…all designed to help you conquer daily development quests faster than you can type git clone. Whether you’re slaying bugs, launching interstellar deployments, or crafting the perfect README, you’ll find your trusty spell scrolls right here.
 
-Use ‘em well, share ‘em often, and may the docs be ever in your favor!
+## Getting Started
+When you’re ready to level up, head over to the /templates directory and peruse the meticulously crafted docs waiting to supercharge your next quest.
+
+Use ’em well, share ’em often, and may the docs be ever in your favor!
