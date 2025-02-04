@@ -13,17 +13,17 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-# 🚀** Product Overview Template**
+# 🚀 Product Overview Template
 
-## 📌** What’s the App?**
+## 📌 What’s the App?
 
 **\[Your App Name]** is a **\[type of application]** that helps **\[target users]** with **\[core functionality]**.
 
-## 🤔** What Problem Does It Solve?**
+## 🤔 What Problem Does It Solve?
 
 **Problem:** *\[Briefly explain the pain point]* **Solution:** *\[How your app fixes it in a simple sentence]*
 
-## 🎭** Meme Format (Bonus Points!)**
+## 🎭 Meme Format (Bonus Points!)\*\*
 
 <table class="dashdraft-table">
   <tbody>
@@ -48,13 +48,13 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 
 ***
 
-# 🔧** Example: Dev Tool for Internal Tech Docs**
+# 🔧Example: Dev Tool for Internal Tech Docs
 
-## 📌** What’s the App?**
+## 📌 What’s the App?
 
 **DocSync** is an **all-in-one internal documentation platform** that **keeps tech docs up to date, integrates into your CLI & IDE, and centralizes all documentation in one place**—from collaborative docs to READMEs and architecture diagrams.
 
-## 🤔** What Problem Does It Solve?**
+## 🤔 What Problem Does It Solve?
 
 **Problem:**
 
@@ -72,7 +72,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 
 * **Collaborative editing** ensures documentation stays **accurate & up-to-date**.
 
-## 🎭** Meme Format (Bonus Points!)**
+## 🎭 Meme Format (Bonus Points!)
 
 <table class="dashdraft-table">
   <tbody>
