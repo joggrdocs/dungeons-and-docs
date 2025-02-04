@@ -13,24 +13,25 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-# 🛠 Team Structure Template
-
 ## 👥 Roles & Responsibilities
 
 <table class="dashdraft-table">
   <tbody>
     <tr class="dashdraft-table-row">
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Role</p>
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Role</strong></p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Name</p>
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Name</strong></p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Responsibilities</p>
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Timezone</strong></p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Ask About...</p>
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Responsibilities</strong></p>
+      </th>
+      <th class="dashdraft-table-header" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Ask About...</strong></p>
       </th>
     </tr>
     <tr class="dashdraft-table-row">
@@ -39,6 +40,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">[Name]</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">UTC−8</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Architecture, code reviews</p>
@@ -55,6 +59,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
         <p class="dashdraft-paragraph">[Name(s)]</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">UTC−8</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">API development, database</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
@@ -67,6 +74,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">[Name(s)]</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">UTC−8</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">UI/UX, React/Vue/etc.</p>
@@ -83,6 +93,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
         <p class="dashdraft-paragraph">[Name]</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">UTC−6</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">CI/CD, infrastructure</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
@@ -97,6 +110,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
         <p class="dashdraft-paragraph">[Name]</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">UTC−6</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Testing, bug tracking</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
@@ -106,11 +122,29 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
   </tbody>
 </table>
 
-#### 💡Who to Bug with Questions?
+***
 
-* **Unsure who to ask?** → Check **Slack #team-support**
+## Additional Teams We Interface With
 
-* **Need something urgent?** → Ping **\[Tech Lead’s Name]** (but bring coffee ☕)
+### **Design Team**
+
+* **How to Communicate**: Slack `#design-team`
+
+* **For Quick Help**: Tag \[Design Lead's Name]
+
+### **Product Team**
+
+* **How to Communicate**: Slack `#product-team`
+
+* **For Priority/Scope**: Ping \[PM’s Name]
+
+***
+
+## 💡 Who to Bug with Questions?
+
+* **Unsure who to ask?** → Check Slack `#team-support`
+
+* **Need something urgent?** → Ping \[Tech Lead’s Name] (but bring coffee ☕)
 
 <!-- @joggr:editLink(86f36565-44f1-4236-9ece-59cece6f67a7):start -->
 ---
