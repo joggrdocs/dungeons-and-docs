@@ -13,7 +13,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-### 🚨 Incident Management Process
+# 🚨 Incident Management Process
 
 A structured incident management process is crucial to:
 
