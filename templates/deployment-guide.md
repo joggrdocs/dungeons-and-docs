@@ -79,7 +79,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 * **Tag the release** before deploying to production.
 
 ```mermaid
-graph TD;
+graph LR;
     A[📌 Code Commit] -->|🚀 GitHub Actions Triggered| B[🛠️ Run Tests];
     B -->|📦 Build & Package| C[🚀 Deploy to Staging];
     C -->|✅ Verification| D[🏷️ Tag Release & Approve Deployment];
@@ -94,7 +94,7 @@ graph TD;
 * Use **GitHub Actions rollback workflow** to revert to the previous stable release.
 
 ```mermaid
-graph TD;
+graph LR;
     A[🚨 Issue Detected] -->|🔍 Assess Impact| B[✅ Confirm Necessity];
     B -->|⚙️ Run Script| C[🔄 Trigger Rollback Workflow];
     C -->|🔬 Run Tests| D[✅ Validate Rollback];
