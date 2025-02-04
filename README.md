@@ -17,6 +17,6 @@ Welcome to the Docs Templates repository—our very own “Holocron of Documenta
 …all designed to help you conquer daily development quests faster than you can type git clone. Whether you’re slaying bugs, launching interstellar deployments, or crafting the perfect README, you’ll find your trusty spell scrolls right here.
 
 ## Getting Started
-When you’re ready to level up, head over to the /templates directory and peruse the meticulously crafted docs waiting to supercharge your next quest.
+When you’re ready to level up, head over to the [`/templates`](./templates) directory and peruse the meticulously crafted docs waiting to supercharge your next quest.
 
 Use ’em well, share ’em often, and may the docs be ever in your favor!
