@@ -1,18 +1,3 @@
-<!--@@joggrdoc@@-->
-<!-- @joggr:version(v2):end -->
-<!-- @joggr:warning:start -->
-<!-- 
-  _   _   _    __        __     _      ____    _   _   ___   _   _    ____     _   _   _ 
- | | | | | |   \ \      / /    / \    |  _ \  | \ | | |_ _| | \ | |  / ___|   | | | | | |
- | | | | | |    \ \ /\ / /    / _ \   | |_) | |  \| |  | |  |  \| | | |  _    | | | | | |
- |_| |_| |_|     \ V  V /    / ___ \  |  _ <  | |\  |  | |  | |\  | | |_| |   |_| |_| |_|
- (_) (_) (_)      \_/\_/    /_/   \_\ |_| \_\ |_| \_| |___| |_| \_|  \____|   (_) (_) (_)
-                                                              
-This document is managed by Joggr. Editing this document could break Joggr's core features, i.e. our 
-ability to auto-maintain this document. Please use the Joggr editor to edit this document 
-(link at bottom of the page).
--->
-<!-- @joggr:warning:end -->
 # 📜 Documentation Rules
 
 1. **Anonymity** – Docs represent team knowledge, not individual authors.
@@ -79,10 +64,3 @@ Following these rules ensures:
 > \[!TIP]
 >
 > Repo-specific docs should live close to the code. This includes implementation details, API specs, and setup instructions. Higher-level docs—like **RFCs, system diagrams, and architecture overviews**—belong in a centralized knowledge base (e.g., Confluence, Notion, Joggr, or a dedicated GitHub repo).
-
-<!-- @joggr:editLink(284ccfba-f508-4d64-aaf4-cef948ae6e58):start -->
----
-<a href="https://app.joggr.io/app/documents/284ccfba-f508-4d64-aaf4-cef948ae6e58/edit">
-  <img src="https://cdn.joggr.io/assets/static/badges/joggr-document-edit.svg?did=284ccfba-f508-4d64-aaf4-cef948ae6e58" alt="Edit doc on Joggr" />
-</a>
-<!-- @joggr:editLink(284ccfba-f508-4d64-aaf4-cef948ae6e58):end -->
