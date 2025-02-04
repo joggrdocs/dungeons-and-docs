@@ -1,18 +1,3 @@
-<!--@@joggrdoc@@-->
-<!-- @joggr:version(v2):end -->
-<!-- @joggr:warning:start -->
-<!-- 
-  _   _   _    __        __     _      ____    _   _   ___   _   _    ____     _   _   _ 
- | | | | | |   \ \      / /    / \    |  _ \  | \ | | |_ _| | \ | |  / ___|   | | | | | |
- | | | | | |    \ \ /\ / /    / _ \   | |_) | |  \| |  | |  |  \| | | |  _    | | | | | |
- |_| |_| |_|     \ V  V /    / ___ \  |  _ <  | |\  |  | |  | |\  | | |_| |   |_| |_| |_|
- (_) (_) (_)      \_/\_/    /_/   \_\ |_| \_\ |_| \_| |___| |_| \_|  \____|   (_) (_) (_)
-                                                              
-This document is managed by Joggr. Editing this document could break Joggr's core features, i.e. our 
-ability to auto-maintain this document. Please use the Joggr editor to edit this document 
-(link at bottom of the page).
--->
-<!-- @joggr:warning:end -->
 # 📝 Contribution Guidelines
 
 Welcome to our codebase! To keep things smooth and **less chaotic than a merge conflict on a Friday afternoon**, please follow these contribution guidelines.
@@ -101,11 +86,3 @@ git commit -m "Fix user authentication bug (#123)"
 
 ```shell
 npm run format
-```
-
-<!-- @joggr:editLink(80707cbf-5276-4432-883d-23ba4d2ac922):start -->
----
-<a href="https://app.joggr.io/app/documents/80707cbf-5276-4432-883d-23ba4d2ac922/edit">
-  <img src="https://cdn.joggr.io/assets/static/badges/joggr-document-edit.svg?did=80707cbf-5276-4432-883d-23ba4d2ac922" alt="Edit doc on Joggr" />
-</a>
-<!-- @joggr:editLink(80707cbf-5276-4432-883d-23ba4d2ac922):end -->
