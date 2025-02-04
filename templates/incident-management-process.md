@@ -138,9 +138,6 @@ Below is a table of our alerts and the corresponding runbooks.
         <p class="dashdraft-paragraph">Description</p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Source</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Runbook</p>
       </th>
     </tr>
@@ -152,10 +149,7 @@ Below is a table of our alerts and the corresponding runbooks.
         <p class="dashdraft-paragraph">Describe the alert in 1 to 2 sentences</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Source Page</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Runbook</a></p>
+        <p class="dashdraft-paragraph">Link to Runbook</p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -166,10 +160,7 @@ Below is a table of our alerts and the corresponding runbooks.
         <p class="dashdraft-paragraph">Describe the alert in 1 to 2 sentences</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Source Page</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Runbook</a></p>
+        <p class="dashdraft-paragraph">Link to Runbook</p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -180,16 +171,10 @@ Below is a table of our alerts and the corresponding runbooks.
         <p class="dashdraft-paragraph">Describe the alert in 1 to 2 sentences</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Source Page</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="google.com">Link to Runbook</a></p>
+        <p class="dashdraft-paragraph">Link to Runbook</p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"></p>
-      </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"></p>
       </td>
