@@ -29,20 +29,6 @@ Following these rules ensures:
 
 * 🔮 **Future-proofing** – Docs help when revisiting complex code.
 
-## **Types of Documentation**
-
-* **RFCs** – Design discussions before coding.
-
-* **Architecture Docs** – System structure and interactions.
-
-* **Guides** – Step-by-step instructions for tasks.
-
-* **Walkthroughs** – Deep dives into critical parts of the codebase.
-
-> \[!TIP]
->
-> Repo-specific docs should live close to the code. This includes implementation details, API specs, and setup instructions. Higher-level docs—like **RFCs, system diagrams, and architecture overviews**—belong in a centralized knowledge base (e.g., Confluence, Notion, Joggr, or a dedicated GitHub repo).
-
 ## **Creating Documentation**
 
 <table class="dashdraft-table">
@@ -90,7 +76,9 @@ Following these rules ensures:
   </tbody>
 </table>
 
-Following these guidelines ensures clear, accessible, and useful documentation for the entire team.
+> \[!TIP]
+>
+> Repo-specific docs should live close to the code. This includes implementation details, API specs, and setup instructions. Higher-level docs—like **RFCs, system diagrams, and architecture overviews**—belong in a centralized knowledge base (e.g., Confluence, Notion, Joggr, or a dedicated GitHub repo).
 
 <!-- @joggr:editLink(284ccfba-f508-4d64-aaf4-cef948ae6e58):start -->
 ---
