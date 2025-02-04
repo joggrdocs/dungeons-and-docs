@@ -13,17 +13,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-# Overview
-
-The following document outlines an example software development process and the expectations for developers at each phase.
-
-> \[!TIP]
->
-> If you have a question or want to propose a change, please open a pull request and ask the team for feedback.
-
 # Software Development Process
-
-## Flow Diagram
 
 Below is our software development process.
 
