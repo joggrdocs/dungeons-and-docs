@@ -13,7 +13,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-## Importance of Code Standards
+# Importance of Code Standards
 
 As an engineering organization focused on operational excellence, we understand that the code itself many times is the best documentation and keeping a standardized format for things like file naming, function declarations, and more, is important for the end-reader of code. This includes when trying to review code, decipher code you didn't write or pulling in samples. We live by one rule with our code styles:
 
@@ -80,7 +80,7 @@ dashboard-view.tsx
 
 ### Prettier Config
 
-```
+```plaintext
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -93,7 +93,7 @@ dashboard-view.tsx
 
 ### Prettier Ignore
 
-```
+```plaintext
 # Basics
 dist/
 node_modules/
