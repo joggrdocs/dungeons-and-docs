@@ -11,7 +11,7 @@
 
 # Grimoire of Documentation: Summon the Arcane Power of Code
 
-Welcome to the Template of Templates repository—our very own “Grimoire of Documentation” (picture a grand arcane library for project docs). This is where we stash:
+Welcome to the Temple of Templates repository—our very own “Grimoire of Documentation” (picture a grand arcane library for project docs). This is where we stash:
 
 - Battle-tested templates
 - Guides and how-tos
