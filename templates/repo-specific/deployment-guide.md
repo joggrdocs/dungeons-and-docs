@@ -1,18 +1,3 @@
-<!--@@joggrdoc@@-->
-<!-- @joggr:version(v2):end -->
-<!-- @joggr:warning:start -->
-<!-- 
-  _   _   _    __        __     _      ____    _   _   ___   _   _    ____     _   _   _ 
- | | | | | |   \ \      / /    / \    |  _ \  | \ | | |_ _| | \ | |  / ___|   | | | | | |
- | | | | | |    \ \ /\ / /    / _ \   | |_) | |  \| |  | |  |  \| | | |  _    | | | | | |
- |_| |_| |_|     \ V  V /    / ___ \  |  _ <  | |\  |  | |  | |\  | | |_| |   |_| |_| |_|
- (_) (_) (_)      \_/\_/    /_/   \_\ |_| \_\ |_| \_| |___| |_| \_|  \____|   (_) (_) (_)
-                                                              
-This document is managed by Joggr. Editing this document could break Joggr's core features, i.e. our 
-ability to auto-maintain this document. Please use the Joggr editor to edit this document 
-(link at bottom of the page).
--->
-<!-- @joggr:warning:end -->
 # **Deployment Guide**
 
 ## **Environments**
@@ -100,10 +85,3 @@ graph LR;
     C -->|🔬 Run Tests| D[✅ Validate Rollback];
     D -->|📝 Post-Mortem| E[📄 Document & Improve];
 ```
-
-<!-- @joggr:editLink(436dc2f7-4056-46e3-9194-0c734a81067e):start -->
----
-<a href="https://app.joggr.io/app/documents/436dc2f7-4056-46e3-9194-0c734a81067e/edit">
-  <img src="https://cdn.joggr.io/assets/static/badges/joggr-document-edit.svg?did=436dc2f7-4056-46e3-9194-0c734a81067e" alt="Edit doc on Joggr" />
-</a>
-<!-- @joggr:editLink(436dc2f7-4056-46e3-9194-0c734a81067e):end -->
