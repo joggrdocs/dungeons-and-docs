@@ -13,7 +13,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-## 📜 Documentation Rules
+# 📜 Documentation Rules
 
 1. **Anonymity** – Docs represent team knowledge, not individual authors.
 
