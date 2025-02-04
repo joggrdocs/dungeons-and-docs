@@ -13,9 +13,9 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-# 🛠** Team Structure Template**
+# 🛠 Team Structure Template
 
-## 👥** Roles & Responsibilities**
+## 👥 Roles & Responsibilities
 
 <table class="dashdraft-table">
   <tbody>
@@ -106,7 +106,7 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
   </tbody>
 </table>
 
-#### 💡** Who to Bug with Questions?**
+#### 💡Who to Bug with Questions?
 
 * **Unsure who to ask?** → Check **Slack #team-support**
 
