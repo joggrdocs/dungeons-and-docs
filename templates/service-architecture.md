@@ -13,17 +13,75 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 (link at bottom of the page).
 -->
 <!-- @joggr:warning:end -->
-## Overview
+# System Overview
 
 This document provides you with an overview of the services (applications), vendors and other assets that make up the our platform and how they interact.
 
-### Services (Applications)
+## Services
 
 There are four primary services that make up our platform.
 
-<table class="dashdraft-table"><tbody><tr class="dashdraft-table-row"><th class="dashdraft-table-header" colspan="1" rowspan="1"><p class="dashdraft-paragraph">Service</p></th><th class="dashdraft-table-header" colspan="1" rowspan="1"><p class="dashdraft-paragraph">Description</p></th><th class="dashdraft-table-header" colspan="1" rowspan="1"><p class="dashdraft-paragraph">Endpoint</p></th><th class="dashdraft-table-header" colspan="1" rowspan="1"><p class="dashdraft-paragraph">GitHub</p></th></tr><tr class="dashdraft-table-row"><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><strong class="dashdraft-bold">API</strong></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">API</strong> is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform.</p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://api.acme.io</code></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com">View</a></p></td></tr><tr class="dashdraft-table-row"><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><strong class="dashdraft-bold">Web</strong></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Web</strong> consists of a React-based application that is a SPA.</p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com">View</a></p></td></tr><tr class="dashdraft-table-row"><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><strong class="dashdraft-bold">Server</strong></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Server</strong> is a Fastify based API that serves the <strong class="dashdraft-bold">Web</strong> to the client.</p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com">View</a></p></td></tr><tr class="dashdraft-table-row"><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><strong class="dashdraft-bold">Third-Party Service</strong></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Third-Party Service</strong> is a proxy API for ENTER_REASON. It is responsible for ENTER_REASON.</p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p></td><td class="dashdraft-table-cell" colspan="1" rowspan="1"><p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com">View</a></p></td></tr></tbody></table>
+<table class="dashdraft-table">
+  <tbody>
+    <tr class="dashdraft-table-row">
+      <th class="dashdraft-table-header" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">Service</p>
+      </th>
+      <th class="dashdraft-table-header" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">Description</p>
+      </th>
+      <th class="dashdraft-table-header" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">Endpoint</p>
+      </th>
+    </tr>
+    <tr class="dashdraft-table-row">
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">API</strong></p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">API</strong> is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform.</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://api.acme.io</code></p>
+      </td>
+    </tr>
+    <tr class="dashdraft-table-row">
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Web</strong></p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Web</strong> consists of a React-based application that is a SPA.</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
+      </td>
+    </tr>
+    <tr class="dashdraft-table-row">
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Server</strong></p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Server</strong> is a Fastify based API that serves the <strong class="dashdraft-bold">Web</strong> to the client.</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
+      </td>
+    </tr>
+    <tr class="dashdraft-table-row">
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Third-Party Service</strong></p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Third-Party Service</strong> is a proxy API for ENTER_REASON. It is responsible for ENTER_REASON.</p>
+      </td>
+      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-#### Diagram
+## System Diagram
 
 ```mermaid
 ---
