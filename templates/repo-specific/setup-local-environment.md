@@ -1,4 +1,4 @@
-## Requirements
+# Requirements
 
 *Update the requirements and provide links to instructions (on how to meet/install the requirements) as needed.*
 
@@ -6,11 +6,11 @@
 
 * [*node@v20+*](https://nodejs.org/en/download)
 
-## Getting Started
+# Getting Started
 
 *Add a brief description of the steps to get started, and update or remove the example steps below.*
 
-### Step 1: *Clone the repository*
+## Step 1: *Clone the repository*
 
 *Clone the repository to your local machine.*
 
@@ -18,7 +18,7 @@
 git clone https://github.com/acme/backend.git
 ```
 
-### Step 2: *Install dependencies*
+## Step 2: *Install dependencies*
 
 *Install the project dependencies.*
 
@@ -26,7 +26,7 @@ git clone https://github.com/acme/backend.git
 npm install
 ```
 
-### Step 3: *Run Database Migrations*
+## Step 3: *Run Database Migrations*
 
 *Run the database migrations, if needed.*
 
@@ -34,7 +34,7 @@ npm install
 npm run db:migrate
 ```
 
-### Step 4: *Start the server*
+## Step 4: *Start the server*
 
 *Start the server.*
 
@@ -42,13 +42,13 @@ npm run db:migrate
 docker-compose up -d
 ```
 
-## 🎉 Done
+# 🎉 Done
 
 You are all set and can now run the project locally!
 
 *You can now view the running app at:* `http://localhost:3000`
 
-## Troubleshooting
+# Troubleshooting
 
 *Add any troubleshooting steps here, you can either use bullet list or sections with headers.*
 
@@ -56,7 +56,7 @@ You are all set and can now run the project locally!
 
 * `Can't reach database server at localhost:5432` *: Make sure the database server is running and the connection details are correct.* *If you are using Docker, make sure the containers are running.*
 
-## Resources
+# Resources
 
 *Add any related resources here.*
 
