@@ -1,18 +1,3 @@
-<!--@@joggrdoc@@-->
-<!-- @joggr:version(v2):end -->
-<!-- @joggr:warning:start -->
-<!-- 
-  _   _   _    __        __     _      ____    _   _   ___   _   _    ____     _   _   _ 
- | | | | | |   \ \      / /    / \    |  _ \  | \ | | |_ _| | \ | |  / ___|   | | | | | |
- | | | | | |    \ \ /\ / /    / _ \   | |_) | |  \| |  | |  |  \| | | |  _    | | | | | |
- |_| |_| |_|     \ V  V /    / ___ \  |  _ <  | |\  |  | |  | |\  | | |_| |   |_| |_| |_|
- (_) (_) (_)      \_/\_/    /_/   \_\ |_| \_\ |_| \_| |___| |_| \_|  \____|   (_) (_) (_)
-                                                              
-This document is managed by Joggr. Editing this document could break Joggr's core features, i.e. our 
-ability to auto-maintain this document. Please use the Joggr editor to edit this document 
-(link at bottom of the page).
--->
-<!-- @joggr:warning:end -->
 # System Overview
 
 This document provides you with an overview of the services (applications), vendors and other assets that make up the our platform and how they interact.
@@ -20,66 +5,12 @@ This document provides you with an overview of the services (applications), vend
 ## Services
 
 There are four primary services that make up our platform.
-
-<table class="dashdraft-table">
-  <tbody>
-    <tr class="dashdraft-table-row">
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Service</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Description</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Endpoint</p>
-      </th>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">API</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">API</strong> is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://api.acme.io</code></p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Web</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Web</strong> consists of a React-based application that is a SPA.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Server</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Server</strong> is a Fastify based API that serves the <strong class="dashdraft-bold">Web</strong> to the client.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Third-Party Service</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">The ENTER_COMPANY <strong class="dashdraft-bold">Third-Party Service</strong> is a proxy API for ENTER_REASON. It is responsible for ENTER_REASON.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">https://app.acme.io</code></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Service                      | Description                                                                                                                                   | Endpoint               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| 🔌 **API**                  | The ENTER_COMPANY **API** is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform. | `https://api.acme.io` |
+| 🌐 **Web**                  | The ENTER_COMPANY **Web** consists of a React-based application that is a SPA.                                                                | `https://app.acme.io` |
+| ⚙ **Server**               | The ENTER_COMPANY **Server** is a Fastify based API that serves the **Web** to the client.                                                     | `https://app.acme.io` |
+| 🔗 **Third-Party Service**  | The ENTER_COMPANY **Third-Party Service** is a proxy API for ENTER_REASON. It is responsible for ENTER_REASON.                                | `https://app.acme.io` |
 
 ## System Diagram
 
@@ -156,10 +87,3 @@ flowchart TD
 
   linkStyle default stroke-width:4px,fill:none,stroke:black;
 ```
-
-<!-- @joggr:editLink(086ba8d2-cb0b-44bc-8a19-71e56349924c):start -->
----
-<a href="https://app.joggr.io/app/documents/086ba8d2-cb0b-44bc-8a19-71e56349924c/edit">
-  <img src="https://cdn.joggr.io/assets/static/badges/joggr-document-edit.svg?did=086ba8d2-cb0b-44bc-8a19-71e56349924c" alt="Edit doc on Joggr" />
-</a>
-<!-- @joggr:editLink(086ba8d2-cb0b-44bc-8a19-71e56349924c):end -->
