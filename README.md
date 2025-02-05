@@ -41,10 +41,10 @@ Use them well, share them widely, and may the magic of documentation guide you o
 | Template Name | Description | Link |
 |---------------|-------------|------|
 | `Product Overview` |  A structured guide to clearly define what your app does, the problem it solves, and how it improves users’ lives. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/product-overview.md) |
-| `Team Overview` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `Team Overview` | A guide outlining team roles, responsibilities, key contacts and who owns what.  | [View Template ](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
 
 ## Architecture Templates
-| `Service Architecture` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `Service Architecture` | A structured guide & diagram for documenting the services, third party services, and key components that make up a platform and how they interact. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
 
 
 
