@@ -32,10 +32,10 @@ Use them well, share them widely, and may the magic of documentation guide you o
 ## Process & Standard Templates
 | Template Name | Description | Link |
 |---------------|-------------|------|
-| `Development Process` | A guide detailing how an idea moves from inception to production, outlining each stage—planning, development, testing, and deployment—along with the definition of done at every step. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/software-development-process.md) |
+| `Development Process` | A guide detailing how an idea moves from inception to production, outlining each stage—planning, development, testing, and deployment—along with the definition of done at every step. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/software-development-process.md) |
 | `Incident Management Process` | A structured guide covering incident detection, classification, and resolution, along with the tools used and runbook links. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/incident-management-process.md) |
 | `Documentation Standards` | A guide to writing clear, discoverable, and team-driven documentation to speed up development, improve onboarding, and future-proof knowledge. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/documentation-standards.md) |
-| `Code Style Standards` | A set of best practices ensuring consistent, readable, and maintainable code across the team. Covers naming conventions, comments, linting, & formatting. | [View]((https://github.com/joggrdocs/temple-of-templates/blob/main/templates/code-style-standard.md) |
+| `Code Style Standards` | A set of best practices ensuring consistent, readable, and maintainable code across the team. Covers naming conventions, comments, linting, & formatting. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/code-style-standard.md) |
 
 ## Team Templates
 | Template Name | Description | Link |
