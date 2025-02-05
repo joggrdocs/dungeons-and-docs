@@ -46,7 +46,7 @@ Use them well, share them widely, and may the magic of documentation guide you o
 ## Architecture Templates
 | Template Name | Description | Link |
 |---------------|-------------|------|
-| `Service Architecture` | A structured guide & diagram for documenting the services, third party services, and key components that make up a platform and how they interact. | [View](https://github.com/joggrdocs/temple-of-templates/tree/main/templates/architecture) |
+| `Service Architecture` | A structured guide & diagram for documenting the services, third party services, and key components that make up a platform and how they interact. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/architecture/service-architecture.md) |
 
 
 
