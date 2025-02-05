@@ -22,6 +22,14 @@ When you’re ready to level up, venture into the [/templates](/templates) direc
 
 Use them well, share them widely, and may the magic of documentation guide you onward!
 
+## Templates Included
+| Template Name | Description | Link |
+|---------------|-------------|------|
+| `template1.md` | Brief description of Template 1 | [View Template 1](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template1.md) |
+| `template2.md` | Brief description of Template 2 | [View Template 2](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template2.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+
+
 
 
 
