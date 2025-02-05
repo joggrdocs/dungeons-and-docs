@@ -25,18 +25,26 @@ Use them well, share them widely, and may the magic of documentation guide you o
 ## Repo Templates
 | Template Name | Description | Link |
 |---------------|-------------|------|
-| `Local Setup Guide`    | A step-by-step guide to help developers quickly set up their development environment, including installing dependencies, configuring settings, and running the project locally. | [View Template 1](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo-specific/setup-local-environment.md) |
+| `Local Setup Guide`    | A step-by-step guide to help developers quickly set up their development environment, including installing dependencies, configuring settings, and running the project locally. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo-specific/setup-local-environment.md) |
 | `Contributions Guidelines` | A set of rules and best practices for contributing to the project, including code style, pull request process, issue reporting, and review expectations. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo-specific/setup-local-environment.md) |
 | `Deployment Guide` | A step-by-step manual for deploying the project, covering environment setup, build commands, configuration settings, and best practices. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo-specific/deployment-guide.md) |
 
 ## Process & Standard Templates
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
-| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| Template Name | Description | Link |
+|---------------|-------------|------|
+| `Development Process` | A guide detailing how an idea moves from inception to production, outlining each stage—planning, development, testing, and deployment—along with the definition of done at every step. | [View Template]([https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/software-development-process.md)) |
+| `Incident Management Process` | A structured guide covering incident detection, classification, and resolution, along with the tools used and runbook links. | [View Template]([https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/incident-management-process.md)) |
+| `Documentation Standards` | A guide to writing clear, discoverable, and team-driven documentation to speed up development, improve onboarding, and future-proof knowledge. | [View Template]([https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/documentation-standards.md)) |
+| `Code Style Standards` | A set of best practices ensuring consistent, readable, and maintainable code across the team. Covers naming conventions, comments, linting, & formatting. | [View Template]([https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/code-style-standard.md)) |
+
+## Team Templates
+| Template Name | Description | Link |
+|---------------|-------------|------|
+| `Product Overview` |  A structured guide to clearly define what your app does, the problem it solves, and how it improves users’ lives. | [View Template](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/product-overview.md) |
+| `Team Overview` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+
+## Architecture Templates
+| `Service Architecture` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
 
 
 
