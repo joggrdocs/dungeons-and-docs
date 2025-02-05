@@ -28,6 +28,13 @@ Use them well, share them widely, and may the magic of documentation guide you o
 | `Local Setup Guide`    | A step-by-step guide to help developers quickly set up their development environment, including installing dependencies, configuring settings, and running the project locally. | [View Template 1](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo-specific/setup-local-environment.md) |
 | `template2.md` | Brief description of Template 2 | [View Template 2](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template2.md) |
 | `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
+| `template3.md` | Brief description of Template 3 | [View Template 3](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/template3.md) |
 
 
 
