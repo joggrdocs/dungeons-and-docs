@@ -26,7 +26,7 @@ Use them well, share them widely, and may the magic of documentation guide you o
 | Template Name | Description | Link |
 |---------------|-------------|------|
 | `Local Setup Guide`    | A step-by-step guide to help developers quickly set up their development environment, including installing dependencies, configuring settings, and running the project locally. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo/setup-local-environment.md) |
-| `Contributions Guidelines` | A set of rules and best practices for contributing to the project, including code style, pull request process, issue reporting, and review expectations. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo/setup-local-environment.md) |
+| `Contributions Guidelines` | A set of rules and best practices for contributing to the project, including code style, pull request process, issue reporting, and review expectations. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo/contribution-guidelines.md) |
 | `Deployment Guide` | A step-by-step manual for deploying the project, covering environment setup, build commands, configuration settings, and best practices. | [View](https://github.com/joggrdocs/temple-of-templates/blob/main/templates/repo/deployment-guide.md) |
 
 ## Process & Standard Templates
