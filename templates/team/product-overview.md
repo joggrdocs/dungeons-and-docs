@@ -1,4 +1,13 @@
-# 🚀 Product Overview Template
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
+# 🚀 Product Overview
 
 ## 📌 What’s the App?
 
