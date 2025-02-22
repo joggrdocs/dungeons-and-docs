@@ -1,16 +1,15 @@
-# Requirements
+# ⚙️ Requirements
 
 *Update the requirements and provide links to instructions (on how to meet/install the requirements) as needed.*
 
-* [*docker@v27+*](https://docs.docker.com/desktop/install/mac-install/) *(installed via Docker Desktop)*
+* 🐳 [*docker@v27+*](https://docs.docker.com/desktop/install/mac-install/) *(installed via Docker Desktop)*
+* 🟢 [*node@v20+*](https://nodejs.org/en/download)
 
-* [*node@v20+*](https://nodejs.org/en/download)
-
-# Getting Started
+# 🚀 Getting Started
 
 *Add a brief description of the steps to get started, and update or remove the example steps below.*
 
-## Step 1: *Clone the repository*
+## 🔹 Step 1: *Clone the repository*
 
 *Clone the repository to your local machine.*
 
@@ -18,7 +17,7 @@
 git clone https://github.com/acme/backend.git
 ```
 
-## Step 2: *Install dependencies*
+## 🔹 Step 2: *Install dependencies*
 
 *Install the project dependencies.*
 
@@ -26,7 +25,7 @@ git clone https://github.com/acme/backend.git
 npm install
 ```
 
-## Step 3: *Run Database Migrations*
+## 🔹 Step 3: *Run Database Migrations*
 
 *Run the database migrations, if needed.*
 
@@ -34,7 +33,7 @@ npm install
 npm run db:migrate
 ```
 
-## Step 4: *Start the server*
+## 🔹 Step 4: *Start the server*
 
 *Start the server.*
 
@@ -48,7 +47,7 @@ You are all set and can now run the project locally!
 
 *You can now view the running app at:* `http://localhost:3000`
 
-# Troubleshooting
+# 🛠️ Troubleshooting
 
 *Add any troubleshooting steps here, you can either use bullet list or sections with headers.*
 
