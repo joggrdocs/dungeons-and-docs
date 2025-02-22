@@ -1,4 +1,4 @@
-# 📜 Documentation Rules
+# 📜 Documentation Standards
 
 1. **Anonymity** – Docs represent team knowledge, not individual authors.
 
