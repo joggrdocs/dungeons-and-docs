@@ -64,7 +64,7 @@ flowchart TD
   third-party <-- "Proxy API Requests" --> thirdpartyapi;
   api -- "Query DB" --> database;
 
-  subgraph vpc["🛜 Joggr"]
+  subgraph vpc["🛜 VPC"]
     direction TB;
     api -- "GitHub Query" --> third-party;
     server;
