@@ -1,4 +1,4 @@
-# System Overview
+# 📊 System Overview
 
 This document provides you with an overview of the services (applications), vendors and other assets that make up the our platform and how they interact.
 
