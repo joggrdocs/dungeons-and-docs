@@ -1,3 +1,12 @@
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
 # 🚨 Incident Management
 
 A structured incident management process is crucial to:
