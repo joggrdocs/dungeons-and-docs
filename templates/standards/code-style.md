@@ -1,8 +1,17 @@
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
 # 👨‍💻 Code Standards
 
 As an engineering organization focused on operational excellence, we understand that the code itself many times is the best documentation and keeping a standardized format for things like file naming, function declarations, and more, is important for the end-reader of code. This includes when trying to review code, decipher code you didn't write or pulling in samples. We live by one rule with our code styles:
 
-> You cannot tell who wrote the code, only that someone on the ENTER\_TEAM\_OR\_COMANY NAME did.
+> You cannot tell who wrote the code, only that someone on the {{team-name}} did.
 
 ## Coding Standards
 
