@@ -1,4 +1,4 @@
-# Importance of Code Standards
+# 👨‍💻 Code Standards
 
 As an engineering organization focused on operational excellence, we understand that the code itself many times is the best documentation and keeping a standardized format for things like file naming, function declarations, and more, is important for the end-reader of code. This includes when trying to review code, decipher code you didn't write or pulling in samples. We live by one rule with our code styles:
 
