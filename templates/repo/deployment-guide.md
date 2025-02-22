@@ -11,15 +11,15 @@
 
 ## **Deployment Steps (GitHub Actions)**
 
-* Push changes to the repository to trigger **GitHub Actions**.
+1. Push changes to the repository to trigger **GitHub Actions**.
 
-* The workflow runs tests, builds, and packages the application.
+2. The workflow runs tests, builds, and packages the application.
 
-* If tests pass, the deployment is pushed to **staging**.
+3. If tests pass, the deployment is pushed to **staging**.
 
-* After verification, an **approval step** is required for **production deployment**.
+4. After verification, an **approval step** is required for **production deployment**.
 
-* **Tag the release** before deploying to production.
+5. **Tag the release** before deploying to production.
 
 ```mermaid
 graph LR;
