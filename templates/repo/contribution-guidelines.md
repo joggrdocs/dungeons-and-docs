@@ -1,3 +1,12 @@
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
 # 📝 Contribution Guidelines
 
 Welcome to our codebase! To keep things smooth and **less chaotic than a merge conflict on a Friday afternoon**, please follow these contribution guidelines.
