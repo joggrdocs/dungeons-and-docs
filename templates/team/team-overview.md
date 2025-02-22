@@ -1,4 +1,14 @@
-# 👥 Roles & Responsibilities
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
+# Team Overview
+## 👥 Roles & Responsibilities
 | **Role**             | **Name**    | **Timezone** | **Responsibilities**         | **Ask About...**                          |
 |----------------------|-------------|-------------|-----------------------------|-------------------------------------------|
 | **Tech Lead**        | [Name]      | UTC−8       | Architecture, code reviews  | Big technical decisions 🔍                |
