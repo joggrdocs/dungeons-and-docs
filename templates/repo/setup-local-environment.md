@@ -55,7 +55,7 @@ You are all set and can now run the project locally!
 
 * `Can't reach database server at localhost:5432` *: Make sure the database server is running and the connection details are correct.* *If you are using Docker, make sure the containers are running.*
 
-# Resources
+# 📚 Resources
 
 *Add any related resources here.*
 
