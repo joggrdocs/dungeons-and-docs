@@ -1,3 +1,12 @@
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
+
 # 📜 Documentation Standards
 
 1. **Anonymity** – Docs represent team knowledge, not individual authors.
