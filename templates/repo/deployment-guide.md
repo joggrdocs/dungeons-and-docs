@@ -1,55 +1,13 @@
-# **Deployment Guide**
+# 🚀 **Deployment Guide**
 
 ## **Environments**
 
-<table class="dashdraft-table">
-  <tbody>
-    <tr class="dashdraft-table-row">
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Environment</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Description</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">URL</p>
-      </th>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Staging</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Pre-production testing environment.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">staging.example.com</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Production</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Live environment.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">production.example.com</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><strong class="dashdraft-bold">Sandbox</strong></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Rarely used, but available for experimentation.</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">sandbox.example.com</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Environment | Description                                      | URL                     |
+|------------|--------------------------------------------------|-------------------------|
+| **Staging** | Pre-production testing environment.            | staging.example.com     |
+| **Production** | Live environment.                           | production.example.com  |
+| **Sandbox** | Rarely used, but available for experimentation. | sandbox.example.com     |
+
 
 ## **Deployment Steps (GitHub Actions)**
 
@@ -72,7 +30,7 @@ graph LR;
     D -->|❌ Failure| F[🔄 Rollback];
 ```
 
-## **Rollback Plan**
+## 🔄 **Rollback Plan**
 
 * Identify the issue and confirm rollback necessity.
 
