@@ -1,4 +1,4 @@
-# ⚙️ Software Development Process
+# ⚙️ Software Development
 
 Below is our software development process.
 

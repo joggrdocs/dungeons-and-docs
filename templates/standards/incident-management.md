@@ -1,4 +1,4 @@
-# 🚨 Incident Management Process
+# 🚨 Incident Management
 
 A structured incident management process is crucial to:
 
