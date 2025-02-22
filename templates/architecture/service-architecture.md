@@ -1,3 +1,11 @@
+<!--  
+📝 Usage:  
+- Replace *placeholders* with relevant details.  
+- Update links and remove unnecessary sections.  
+- Customize as needed.  
+
+Happy documenting! 🚀  
+-->
 # 📊 System Overview
 
 This document provides you with an overview of the services (applications), vendors and other assets that make up the our platform and how they interact.
