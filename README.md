@@ -1,6 +1,6 @@
 <div>
     <p align="center">
-        <img src="dnd-logo.png" align="center" width="100%" />
+        <img src=".github/assets/cover.png" align="center" width="100%" />
     </p>
     <hr>
 </div>
