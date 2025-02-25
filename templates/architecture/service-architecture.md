@@ -42,30 +42,30 @@ flowchart TD
     style title fill:none,stroke:none,color:#333,font-weight:bold
 
     %% Core Services - using round shapes with parentheses
-    web("🌐 Web Client\napp.acme.io")
+    web("🌐 Web Client")
     style web fill:#7b1fa2,color:white,stroke:#5d1777,stroke-width:2px
 
-    api("⬆️ Backend API\napi.acme.io")
+    api("⬆️ Backend API")
     style api fill:#7b1fa2,color:white,stroke:#5d1777,stroke-width:2px
 
-    server("💻 Web Server\nStatic Content")
+    server("💻 Web Server")
     style server fill:#7b1fa2,color:white,stroke:#5d1777,stroke-width:2px
 
-    third-party("🐙 Third-Party Proxy\nAPI & App Integration")
+    third-party("🐙 Third-Party Proxy")
     style third-party fill:#00897b,color:white,stroke:#005b4f,stroke-width:2px
 
     %% AWS Services
-    database[("🐘 MicrosoftSQL\nCloudSQL")]
+    database[("🐘 MicrosoftSQL")]
     style database fill:#0064a5,color:white,stroke:#004c7f,stroke-width:2px
 
-    bucket("🪣 Storage Bucket\nCloud Storage")
+    bucket("🪣 Storage Bucket")
     style bucket fill:#0064a5,color:white,stroke:#004c7f,stroke-width:2px
 
     %% Vendor Services
-    Okta("🔐 Okta.com\nIdentity Provider")
+    Okta("🔐 Okta.com")
     style Okta fill:#f57c00,color:white,stroke:#bc5100,stroke-width:2px
 
-    thirdpartyapi("🔌 thirdparty.com\nExternal API")
+    thirdpartyapi("🔌 thirdparty.com")
     style thirdpartyapi fill:#f57c00,color:white,stroke:#bc5100,stroke-width:2px
 
     %% Connections with descriptive labels
