@@ -8,7 +8,7 @@
 
 # Dungeons and Docs
 
-Welcome to Joggr's battle tested documentation templates that you can use to set up your perfect documentation. This repository will help you on your quest for the Golden Codex of Perfect Documentation (aka a great docs setup). 
+Welcome to Joggr's battle tested documentation templates that you can use on your quest for the Golden Codex of Perfect Documentation (aka a great docs setup). 
 
 You might ask: "How can these templates help me on my quest?"
 
