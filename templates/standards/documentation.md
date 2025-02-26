@@ -1,8 +1,8 @@
 <!--  
 📝 Usage:  
-- Replace *placeholders* with relevant details.  
-- Update links and remove unnecessary sections.  
-- Customize as needed.  
+- Replace any {{placeholders}} with your own content
+- Update links and remove unnecessary sections
+- Customize as needed 
 
 Happy documenting! 🚀  
 -->

@@ -1,7 +1,8 @@
 <!--  
 📝 Usage:  
-- Replace *placeholders* with relevant details.  
-- Update links and remove unnecessary sections.  
+- Replace {{company}} with the name of your company.
+- Replace {{reason}} with the reason for the third-party service.
+- Update links and remove unnecessary sections.
 - Customize as needed.  
 
 Happy documenting! 🚀  
@@ -14,12 +15,12 @@ This document provides you with an overview of the services (applications), vend
 ## Services
 
 There are four primary services that make up our platform.
-| Service                      | Description                                                                                                                                   | Endpoint               |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
-| 🔌 **API**                  | The ENTER_COMPANY **API** is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform. | `https://api.acme.io` |
-| 🌐 **Web**                  | The ENTER_COMPANY **Web** consists of a React-based application that is a SPA.                                                                | `https://app.acme.io` |
-| ⚙ **Server**               | The ENTER_COMPANY **Server** is a Fastify based API that serves the **Web** to the client.                                                     | `https://app.acme.io` |
-| 🔗 **Third-Party Service**  | The ENTER_COMPANY **Third-Party Service** is a proxy API for ENTER_REASON. It is responsible for ENTER_REASON.                                | `https://app.acme.io` |
+| Service                     | Description                                                                                                                                  | Endpoint               |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| 🔌 **API**                  | The {{company}} **API** is the main API for our Platform. It is responsible for all of the business logic and data storage for the Platform. | `https://api.acme.io`  |
+| 🌐 **Web**                  | The {{company}} **Web** consists of a React-based application that is a SPA.                                                                 | `https://app.acme.io`  |
+| ⚙ **Server**                | The {{company}} **Server** is a Fastify based API that serves the **Web** to the client.                                                     | `https://app.acme.io`  |
+| 🔗 **Third-Party Service**  | The {{company}} **Third-Party Service** is a proxy API for {{reason}}. It is responsible for {{reason}}.                                     | `https://app.acme.io`  |
 
 ## System Diagram
 
