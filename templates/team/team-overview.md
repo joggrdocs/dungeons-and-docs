@@ -1,42 +1,50 @@
 <!--  
-📝 Usage:  
-- Replace any {{placeholders}} with your own content
+�� Usage:  
+- Replace all {{placeholders}} with your organization's content
 - Update links and remove unnecessary sections
 - Customize as needed 
 
 Happy documenting! 🚀  
 -->
 
-# Team Overview
-## 👥 Roles & Responsibilities
-| **Role**             | **Name**    | **Timezone** | **Responsibilities**         | **Ask About...**                          |
-|----------------------|-------------|-------------|-----------------------------|-------------------------------------------|
-| **Tech Lead**        | [Name]      | UTC−8       | Architecture, code reviews  | Big technical decisions 🔍                |
-| **Backend Devs**     | [Name(s)]   | UTC−8       | API development, database   | Backend bugs 🐞                           |
-| **Frontend Devs**    | [Name(s)]   | UTC−8       | UI/UX, React/Vue/etc.       | Frontend issues 🎨                        |
-| **DevOps**           | [Name]      | UTC−6       | CI/CD, infrastructure       | Deployments & servers 🚀                  |
-| **QA**               | [Name]      | UTC−6       | Testing, bug tracking       | Broken features 🛠                        |
+# 👥 {{ team-name }} Team Overview
 
-***
+This document provides an overview of the {{ team-name }} team structure, roles, and communication channels.
 
-## Additional Teams We Interface With
+## 🎯 Team Structure
 
-### **Design Team**
+| Role | Name | Timezone | Responsibilities | Ask About... |
+|------|------|----------|------------------|--------------|
+| **Tech Lead** | {{ tech-lead-name }} | {{ timezone }} | Architecture, code reviews | Big technical decisions 🔍 |
+| **Backend Devs** | {{ backend-devs }} | {{ timezone }} | API development, database | Backend bugs 🐞 |
+| **Frontend Devs** | {{ frontend-devs }} | {{ timezone }} | UI/UX, React/Vue/etc. | Frontend issues 🎨 |
+| **DevOps** | {{ devops-name }} | {{ timezone }} | CI/CD, infrastructure | Deployments & servers 🚀 |
+| **QA** | {{ qa-name }} | {{ timezone }} | Testing, bug tracking | Broken features 🛠 |
 
-* **How to Communicate**: Slack `#design-team`
+## 🤝 Cross-Team Collaboration
 
-* **For Quick Help**: Tag \[Design Lead's Name]
+### 🎨 Design Team
 
-### **Product Team**
+- **Communication Channel**: Slack `#{{ team-name }}-design`
+- **Primary Contact**: {{ design-lead-name }}
+- **Key Responsibilities**: UI/UX design, user research, design system
 
-* **How to Communicate**: Slack `#product-team`
+### 📊 Product Team
 
-* **For Priority/Scope**: Ping \[PM’s Name]
+- **Communication Channel**: Slack `#{{ team-name }}-product`
+- **Primary Contact**: {{ product-manager-name }}
+- **Key Responsibilities**: Product roadmap, feature prioritization, user stories
 
-***
+## 💡 Support & Questions
 
-## 💡 Who to Bug with Questions?
+### Getting Help
 
-* **Unsure who to ask?** → Check Slack `#team-support`
+- **General Questions**: Slack `#{{ team-name }}-support`
+- **Urgent Issues**: Ping {{ tech-lead-name }} (but bring coffee ☕)
+- **On-Call Support**: {{ oncall-schedule-link }}
 
-* **Need something urgent?** → Ping \[Tech Lead’s Name] (but bring coffee ☕)
+### 📚 Resources
+
+- [Team Handbook](../handbook.md)
+- [Architecture Overview](../architecture/overview.md)
+- [Development Guidelines](../standards/development.md)
