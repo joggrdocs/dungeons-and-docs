@@ -1,25 +1,23 @@
 <!--  
-📝 Usage:  
-- Replace any {{placeholders}} with your own content
+�� Usage:  
+- Replace all {{placeholders}} with your organization's content
 - Update links and remove unnecessary sections
 - Customize as needed 
 
 Happy documenting! 🚀  
 -->
 
-# 🚨 Incident Management
+# 🚨 Incident Management Standards
 
-A structured incident management process is crucial to:
+This document outlines the incident management process for {{ team-name }} to ensure consistent and effective incident response.
 
-* 🚀 **Minimize Downtime**
+## 🎯 Key Objectives
 
-* 🎉 **Improve Customer Satisfaction**
+- 🚀 **Minimize Downtime**: Quick and efficient incident resolution
+- 🎉 **Improve Customer Satisfaction**: Clear communication and rapid response
+- 🚍 **Maintain Business Continuity**: Robust incident handling procedures
 
-* 🚍 **Maintain Business Continuity**
-
-It also enhances team collaboration, ensures compliance, builds stakeholder trust, and strengthens system reliability.
-
-## Incident Management Process
+## 🔄 Process Flow
 
 ```mermaid
 graph LR;
@@ -65,28 +63,59 @@ graph LR;
   end;
 ```
 
-## Tools
+## 🛠️ Tools & Technologies
 
-We use the following tools and technologies to support our incident management process.
+| Tool | Description | Usage |
+|------|-------------|-------|
+| {{ incident-tool }} | {{ incident-tool-description }} | {{ incident-tool-usage }} |
+| {{ monitoring-tool }} | {{ monitoring-tool-description }} | {{ monitoring-tool-usage }} |
+| {{ logging-tool }} | {{ logging-tool-description }} | {{ logging-tool-usage }} |
 
-| Tool         | Description                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| Incident.io | Describe in 2-3 sentences what the platform is and what you use it for.      |
-| Checkly     | Describe in 2-3 sentences what the platform is and what you use it for.      |
-| DataDog     | Describe in 2-3 sentences what the platform is and what you use it for.      |
-|             |                                                                             |
+## ⚠️ Alert Management
 
-## Alerts
+### Alert Severity Levels
 
-Below is a table of our alerts and the corresponding runbooks.
+| Level | Description | Response Time | Escalation Path |
+|-------|-------------|---------------|-----------------|
+| P1 | Critical - Service Down | < 15 minutes | {{ p1-escalation }} |
+| P2 | Major - Service Degraded | < 30 minutes | {{ p2-escalation }} |
+| P3 | Minor - Non-Critical | < 2 hours | {{ p3-escalation }} |
+| P4 | Low - Informational | < 4 hours | {{ p4-escalation }} |
 
-> \[!TIP]
->
-> If you are only using a single system for defining alerts, it may be overkill to build this table. We would recommend you embed the runbooks directly in that system, next to the alert. For example, if you use DataDog, embed the URL for the runbook next to the alert in DataDog.
+### Active Alerts
 
-| Alert              | Description                                  | Runbook            |
-|--------------------|----------------------------------------------|--------------------|
-| Example Alert #1   | Describe the alert in 1 to 2 sentences       | Link to Runbook    |
-| Example Alert #1   | Describe the alert in 1 to 2 sentences       | Link to Runbook    |
-| Example Alert #1   | Describe the alert in 1 to 2 sentences       | Link to Runbook    |
-|                    |                                              |                    |
+| Alert | Description | Runbook | Owner |
+|-------|-------------|---------|-------|
+| {{ alert-name }} | {{ alert-description }} | [View Runbook]({{ runbook-link }}) | {{ alert-owner }} |
+
+> [!TIP]
+> For teams using a single alerting system (e.g., DataDog), consider embedding runbooks directly in the alert configuration rather than maintaining this table.
+
+## 📝 Post-Mortem Process
+
+1. **Incident Summary**
+   - Timeline of events
+   - Impact assessment
+   - Root cause analysis
+
+2. **Action Items**
+   - Immediate fixes
+   - Long-term improvements
+   - Documentation updates
+
+3. **Documentation**
+   - Update runbooks
+   - Add new runbooks for gaps
+   - Share learnings with team
+
+## 🔍 Related Standards
+
+- [On-Call Guidelines](./on-call.md)
+- [Runbook Standards](./runbooks.md)
+- [Communication Guidelines](./communication.md)
+
+## 📚 Additional Resources
+
+- [{{ team-name }} Incident Playbook](../playbooks/incident.md)
+- [Architecture Overview](../architecture/overview.md)
+- [Service Dependencies](../architecture/dependencies.md)

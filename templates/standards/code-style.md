@@ -1,23 +1,25 @@
 <!--  
-📝 Usage:  
-- Replace any {{placeholders}} with your own content
+�� Usage:  
+- Replace all {{placeholders}} with your organization's content
 - Update links and remove unnecessary sections
 - Customize as needed 
 
 Happy documenting! 🚀  
 -->
 
-# 👨‍💻 Code Standards
+# 👨‍💻 Code Style Standards
 
-As an engineering organization focused on operational excellence, we understand that the code itself many times is the best documentation and keeping a standardized format for things like file naming, function declarations, and more, is important for the end-reader of code. This includes when trying to review code, decipher code you didn't write or pulling in samples. We live by one rule with our code styles:
+This document outlines the code style standards for {{ team-name }} to ensure consistent, readable, and maintainable code across our organization.
 
-> You cannot tell who wrote the code, only that someone on the {{team-name}} did.
+## 🎯 Core Principle
 
-## Coding Standards
+> You cannot tell who wrote the code, only that someone on the {{ team-name }} did.
 
-### Naming Conventions
+## 📝 Naming Conventions
 
-**Variables & Functions:** `camelCase`
+### Variables & Functions
+
+Use `camelCase` for variables and functions:
 
 ```typescript
 const userName = 'JohnDoe';
@@ -26,7 +28,9 @@ function getUserData() {
 }
 ```
 
-**Classes & Components:** `PascalCase`
+### Classes & Components
+
+Use `PascalCase` for classes and components:
 
 ```typescript
 class UserProfile {
@@ -40,41 +44,61 @@ function App() {
 }
 ```
 
-**Constants:** `UPPER_CASE`
+### Constants
+
+Use `UPPER_CASE` for constants:
 
 ```typescript
 const API_KEY = '12345-ABCDE';
 const MAX_USERS = 100;
 ```
 
-**File Names:** `kebab-case`
+### File Names
+
+Use `kebab-case` for file names:
 
 ```typescript
 user-profile.js
 dashboard-view.tsx
 ```
 
-### Comments
+## 💬 Comments & Documentation
 
-* **Use JSDoc** for documenting functions and APIs.
+### Function Documentation
 
-* **Header Comments** for large files only.
+Use JSDoc for documenting functions and APIs:
 
-* **Section & Subsection Comments** for organizing large logic blocks.
+```typescript
+/**
+ * Retrieves user data from the API
+ * @param {string} userId - The unique identifier of the user
+ * @returns {Promise<UserData>} The user's data
+ * @throws {Error} If the user is not found
+ */
+async function getUserData(userId) {
+  // implementation
+}
+```
 
-* **Avoid redundant comments** – describe intent, not obvious functionality.
+### File Organization
 
-### Linting & Formatting
+- Use header comments for large files only
+- Use section comments for organizing large logic blocks
+- Avoid redundant comments – describe intent, not obvious functionality
 
-* **Linting:** [ESLint](https://eslint.org/).
+## 🛠️ Linting & Formatting
 
-* **Formatting:** [Prettier](https://prettier.io/), standard config.
+### Tools
 
-* **No additional warnings in PRs** – aim for zero lint errors.
+- **Linting**: {{ linting-tool }}
+- **Formatting**: {{ formatting-tool }}
+- **Type Checking**: {{ type-checking-tool }}
 
-### Prettier Config
+### Configuration
 
-```plaintext
+#### Prettier Config
+
+```json
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -85,7 +109,7 @@ dashboard-view.tsx
 }
 ```
 
-### Prettier Ignore
+#### Prettier Ignore
 
 ```plaintext
 # Basics
@@ -103,3 +127,24 @@ build/
 **/__fixtures__/
 **/fixtures/
 ```
+
+## 🔍 Code Review Standards
+
+### Linting Requirements
+
+- No linting errors in PRs
+- All new code must pass type checking
+- Follow existing patterns in the codebase
+
+### Documentation Requirements
+
+- Update relevant documentation
+- Add JSDoc comments for new functions
+- Update README if needed
+
+## 📚 Additional Resources
+
+- [{{ team-name }} Engineering Handbook](../handbook.md)
+- [Architecture Standards](./architecture.md)
+- [Testing Standards](./testing.md)
+- [Git Workflow](./git-workflow.md)

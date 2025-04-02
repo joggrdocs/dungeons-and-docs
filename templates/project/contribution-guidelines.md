@@ -1,6 +1,6 @@
 <!--  
-📝 Usage:  
-- Replace any {{placeholders}} with your own content
+�� Usage:  
+- Replace all {{placeholders}} with your organization's content
 - Update links and remove unnecessary sections
 - Customize as needed 
 
@@ -9,23 +9,20 @@ Happy documenting! 🚀
 
 # 📝 Contribution Guidelines
 
-Welcome to our codebase! To keep things smooth and **less chaotic than a merge conflict on a Friday afternoon**, please follow these contribution guidelines.
+Welcome to the {{ app }} codebase! This guide outlines our contribution process and standards to maintain code quality and collaboration.
 
-***
+## 🎯 Development Workflow
 
-## 🔀 Branching Strategy
+### Branching Strategy
 
-We follow **Trunk-Based Development**.
+We follow **Trunk-Based Development** with the following branches:
 
-### **Trunk-Based Development Example:**
-
-* **Main (**`main`**)** – Always production-ready. All changes merge directly here after review.
-
-* **Feature Branches (**`feature/your-feature`**)** – Short-lived branches created from `main`, merged back ASAP.
-
-* **Hotfixes (**`hotfix/critical-bug`**)** – Branch from `main` for urgent fixes, merge quickly.
-
-* **Releases** – We tag releases from `main`, no separate release branches.
+| Branch Type | Pattern | Description | Lifecycle |
+|-------------|---------|-------------|-----------|
+| **Main** | `main` | Production-ready code | Long-lived |
+| **Feature** | `feature/{{ feature-name }}` | New features | Short-lived |
+| **Hotfix** | `hotfix/{{ issue-description }}` | Critical fixes | Very short-lived |
+| **Release** | `v{{ version }}` | Release tags | Permanent |
 
 ```mermaid
 gitGraph
@@ -45,53 +42,132 @@ gitGraph
     commit id: "Continuous Integration Build"
 ```
 
-***
+## 🔍 Code Review Process
 
-## ✅ Code Review Process
+### Review Requirements
 
-* **Who Approves PRs?** → At least **\[#]** approvals required before merging. No self-merges.
+- **Approvals**: {{ required-approvals }} approvals required
+- **Self-Review**: No self-merges allowed
+- **Review Style**: Constructive feedback with actionable items
+- **Documentation**: Update relevant documentation
 
-* **Review Style** → Keep it constructive, don’t just say *“LGTM”*, and **leave actionable feedback**.
+### Review Guidelines
 
-* **The GIF Rule** → It’s an unwritten law that every PR **must** contain at least one GIF (or equivalent meme).
+1. **Code Quality**
+   - Follow coding standards
+   - Include tests
+   - Update documentation
+   - No linting errors
 
-***
+2. **PR Description**
+   - Clear title
+   - Detailed description
+   - Screenshots/GIFs when relevant
+   - Link to related issues
 
-## 📌 PR Standards
+3. **Commit Messages**
+   ```bash
+   # Format
+   type(scope): description (#issue-number)
+   
+   # Example
+   fix(auth): resolve login redirect issue (#123)
+   ```
 
-A **good PR** should be:
+## ⏳ Pull Request Standards
 
-* **Small & Focused** → Aim for **\[#] files max** per PR.
+### PR Requirements
 
-* **Descriptive** → PR title and description should **explain the *why* behind the change**, not just *“fixed stuff”*.
+| Requirement | Description |
+|-------------|-------------|
+| **Size** | Maximum {{ max-files }} files per PR |
+| **Scope** | One feature/fix per PR |
+| **Tests** | All tests must pass |
+| **Documentation** | Update relevant docs |
 
-* **Linked to Issues/Tickets** → Reference relevant issues (e.g., `Closes #123`).
+### PR Template
 
-* **Clear Commits** → Use meaningful commit messages:
+```markdown
+## Description
+{{ pr-description }}
 
-```shell
-git commit -m "Fix user authentication bug (#123)"
+## Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Documentation update
+
+## Testing
+- [ ] Unit tests added/updated
+- [ ] Integration tests added/updated
+- [ ] Manual testing completed
+
+## Documentation
+- [ ] README updated
+- [ ] API docs updated
+- [ ] Release notes updated
 ```
 
-***
+## ⚡ Response Times
 
-## ⏳ PR SLAs
+### Review SLAs
 
-* **Time to Review** → PRs should be reviewed within **\[#] hours** of submission.
+| Action | Timeframe | Escalation |
+|--------|-----------|------------|
+| Initial Review | {{ review-sla }} hours | @{{ reviewer-role }} |
+| Follow-up | {{ followup-sla }} hours | @{{ team-lead }} |
+| Merge | {{ merge-sla }} hours | @{{ tech-lead }} |
 
-* **Merging PRs** → If a PR sits unreviewed for **\[#] days**, gently **@mention reviewers**.
+## 🛠️ Development Tools
 
-* **No PR Left Behind** → Every PR gets reviewed. If yours is stuck, **poke the team (politely)**.
+### Required Tools
 
-***
+| Tool | Version | Usage |
+|------|---------|-------|
+| {{ tool-1 }} | {{ version-1 }} | {{ usage-1 }} |
+| {{ tool-2 }} | {{ version-2 }} | {{ usage-2 }} |
+| {{ tool-3 }} | {{ version-3 }} | {{ usage-3 }} |
 
-## 🔧 Linting, Formatting & CI/CD
+### Code Quality Tools
 
-* **Linting:** We use [ESLint](https://eslint.org/) – no failing lint checks in PRs.
-
-* **Formatting:** Auto-format before committing. Use:
-
-* **CI/CD Checks:** All PRs **must** pass automated tests before merging. No exceptions.
-
-```shell
+```bash
+# Format code
 npm run format
+
+# Run linter
+npm run lint
+
+# Run tests
+npm test
+```
+
+## 🚀 Getting Started
+
+1. **Fork the Repository**
+   ```bash
+   git clone {{ repository-url }}
+   cd {{ repository-name }}
+   ```
+
+2. **Set Up Development Environment**
+   ```bash
+   npm install
+   npm run setup
+   ```
+
+3. **Create Feature Branch**
+   ```bash
+   git checkout -b feature/{{ feature-name }}
+   ```
+
+## 🔍 Related Documents
+
+- [Code Style Guide](../standards/code-style.md)
+- [Testing Standards](../standards/testing.md)
+- [Documentation Standards](../standards/documentation.md)
+
+## 📚 Additional Resources
+
+- [{{ app }} Documentation]({{ docs-url }})
+- [API Reference]({{ api-docs-url }})
+- [Architecture Overview](../architecture/overview.md)

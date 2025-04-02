@@ -1,71 +1,136 @@
 <!--  
-📝 Usage:  
-- Replace any {{placeholders}} with your own content
+�� Usage:  
+- Replace all {{placeholders}} with your organization's content
 - Update links and remove unnecessary sections
-- Customize as needed  
+- Customize as needed 
 
 Happy documenting! 🚀  
 -->
 
-# ⚙️ Requirements
+# ⚙️ Local Development Setup
 
-*Update the requirements and provide links to instructions (on how to meet/install the requirements) as needed.*
+This guide will help you set up your local development environment for {{ app }}.
 
-* 🐳 [*docker@v27+*](https://docs.docker.com/desktop/install/mac-install/) *(installed via Docker Desktop)*
-* 🟢 [*node@v20+*](https://nodejs.org/en/download)
+## 🎯 Prerequisites
 
-# 🚀 Getting Started
+### Required Software
+| Software | Version | Installation Guide |
+|----------|---------|-------------------|
+| 🐳 Docker | v27+ | [Docker Desktop Installation]({{ docker-install-guide }}) |
+| 🟢 Node.js | v20+ | [Node.js Download]({{ nodejs-download-url }}) |
+| {{ other-requirement-1 }} | {{ version-1 }} | [Installation Guide]({{ guide-1-url }}) |
+| {{ other-requirement-2 }} | {{ version-2 }} | [Installation Guide]({{ guide-2-url }}) |
 
-*Add a brief description of the steps to get started, and update or remove the example steps below.*
+### System Requirements
+- {{ system-requirement-1 }}
+- {{ system-requirement-2 }}
+- {{ system-requirement-3 }}
 
-## 🔹 Step 1: *Clone the repository*
+## 🚀 Setup Steps
 
-*Clone the repository to your local machine.*
+### 1. Clone Repository
 
-```shell
-git clone https://github.com/acme/backend.git
+```bash
+git clone {{ repository-url }}
+cd {{ repository-name }}
 ```
 
-## 🔹 Step 2: *Install dependencies*
+### 2. Environment Setup
 
-*Install the project dependencies.*
+1. Copy the example environment file:
+   ```bash
+   cp .env.example .env
+   ```
 
-```shell
+2. Update the environment variables:
+   ```bash
+   # Required variables
+   DATABASE_URL={{ database-url }}
+   API_KEY={{ api-key }}
+   # Add other required variables
+   ```
+
+### 3. Install Dependencies
+
+```bash
+# Install project dependencies
 npm install
+
+# Install global dependencies (if needed)
+npm install -g {{ global-dependency-1 }}
+npm install -g {{ global-dependency-2 }}
 ```
 
-## 🔹 Step 3: *Run Database Migrations*
+### 4. Database Setup
 
-*Run the database migrations, if needed.*
-
-```shell
+```bash
+# Run database migrations
 npm run db:migrate
+
+# Seed the database (if needed)
+npm run db:seed
 ```
 
-## 🔹 Step 4: *Start the server*
+### 5. Start Services
 
-*Start the server.*
-
-```shell
+```bash
+# Start all required services
 docker-compose up -d
+
+# Verify services are running
+docker-compose ps
 ```
 
-# 🎉 Done
+## 🎉 Verify Installation
 
-You are all set and can now run the project locally!
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-*You can now view the running app at:* `http://localhost:3000`
+2. Access the application:
+   - Frontend: {{ frontend-url }}
+   - API: {{ api-url }}
+   - Admin Panel: {{ admin-url }}
 
-# 🛠️ Troubleshooting
+## 🧪 Run Tests
 
-*Add any troubleshooting steps here, you can either use bullet list or sections with headers.*
+```bash
+# Run unit tests
+npm run test:unit
 
-* `Unable to connect to the server` *: Check your internet connection and make sure the server is running.* *If you are using Docker, make sure the containers are running.*
+# Run integration tests
+npm run test:integration
 
-* `Can't reach database server at localhost:5432` *: Make sure the database server is running and the connection details are correct.* *If you are using Docker, make sure the containers are running.*
+# Run all tests
+npm test
+```
 
-# 📚 Resources
+## 🛠️ Troubleshooting
 
-*Add any related resources here.*
+### Common Issues
 
-* [*Link to a related resource*](https://example.com)
+| Issue | Solution |
+|-------|----------|
+| **Unable to connect to the server** | - Check your internet connection<br/>- Verify the server is running<br/>- Check Docker containers status |
+| **Database connection errors** | - Verify database credentials in `.env`<br/>- Ensure database service is running<br/>- Check database port availability |
+| {{ issue-1 }} | {{ solution-1 }} |
+| {{ issue-2 }} | {{ solution-2 }} |
+
+### Getting Help
+
+- **Slack Channel**: `#{{ team-name }}-dev-help`
+- **Documentation**: [Development Guide](../guides/development.md)
+- **Support Contact**: {{ support-contact }}
+
+## 🔍 Related Documents
+
+- [Architecture Overview](../architecture/overview.md)
+- [Development Guidelines](../standards/development.md)
+- [Testing Standards](../standards/testing.md)
+
+## 📚 Additional Resources
+
+- [{{ app }} Documentation]({{ docs-url }})
+- [API Reference]({{ api-docs-url }})
+- [Contributing Guide](../contributing.md)
