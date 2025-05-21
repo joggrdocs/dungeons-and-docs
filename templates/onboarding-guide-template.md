@@ -15,25 +15,13 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 <!-- @joggr:warning:end -->
 ## 🧭 Developer Onboarding Guide
 
-Welcome to **\[Company Name]** — this guide will help you get productive quickly. You’ll start writing code and learn how to support production systems as part of your onboarding journey.
+Welcome to **\[Company Name]**! This guide will help you get productive quickly. You’ll start writing code and learn how to support production systems as part of your onboarding journey.
 
-### 🎯 Onboarding Goals
+* **Goal 1 – Start Writing Code**: Get familiar with our repositories, development tools, and contribution workflow.
 
-* **Goal 1 – Start Writing Code** Get familiar with our repositories, development tools, and contribution workflow.
+* **Goal 2 – Prepare for On-Call Support**: Learn how to monitor, debug, and support the systems you’ll be working on.
 
-* **Goal 2 – Prepare for On-Call Support** Learn how to monitor, debug, and support the systems you’ll be working on.
-
-## 📅 Day 1 — Setup & First Contribution
-
-### ✅ Tasks Overview
-
-* Get access to tools & systems
-
-* Set up your local dev environment
-
-* Walk through the codebase
-
-* Open your first PR
+## 📅 Day 1: First Contribution
 
 ### 🔐 Access Checklist
 
@@ -226,7 +214,7 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
   </tbody>
 </table>
 
-## 📅 Day 2 — Contributing with Confidence
+## 📅 Day 2: Contribute with Confidence
 
 ### 📚 Engineering Essentials
 
