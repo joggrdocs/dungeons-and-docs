@@ -15,98 +15,45 @@ ability to auto-maintain this document. Please use the Joggr editor to edit this
 <!-- @joggr:warning:end -->
 # 🧭 Developer Onboarding Guide
 
-Welcome to **\[Company Name]**! Your onboarding is structured around two key goals:
+Welcome to **\[Company Name]**! Your onboarding is structured around two key goals.
 
-* **Goal 1:** Start contributing code
+**Goal 1: Start writing code**: Get familiar with our repositories, development tools, and contribution workflow.
 
-* **Goal 2:** Prepare for on-call support
+**Goal 2: Prepare for on-call support**: Learn how to monitor, debug, and support the systems you’ll be working on.
 
-## 📅 Day 1 Task List
+### 📅 Day 1 Tasks
 
-1. Get access to all tools
+1. ✅ Get access to all tools and systems
 
-2. Set up your local environment
+2. 🛠 Set up your local dev environment
 
-3. Complete a walkthrough of the codebase
+3. 🧭 Walk through the codebase
 
-4. Create your first PR
+4. 🚀 Open your first PR
 
-### ✅ Access Checklist
+#### ✅ Access Checklist
 
 Please ensure you have access to all required tools and systems. Ask your onboarding buddy or manager if anything is missing.
 
-<table class="dashdraft-table">
-  <tbody>
-    <tr class="dashdraft-table-row">
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">System / Tool</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Notes / Links</p>
-      </th>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">GitHub (Version Control)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Org Link]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Slack (Communication)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Slack Workspace Invite]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Google Workspace (Email)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Gmail / Calendar Access]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Linear (Project Management)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Board Link]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Joggr (Documentation)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Joggr Workspace Link]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">AWS / Vercel / GCP (Cloud)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Access Request / Console]</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Sentry / Datadog (Monitoring)</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">[Monitoring Tool Link]</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+**Core Tools**
 
-### 🛠 Local Environment Setup
+* [GitHub](#) – Code hosting & version control
 
-You’ll be working across multiple codebases. Start by cloning and running each one locally using the linked setup guides. Once your environments are running, move on to your first task and codebase walkthrough. If anything breaks, ask your onboarding buddy or use `#dev-support`.
+* [Slack](#) – Team communication
+
+* [Google Workspace](#) – Gmail & Calendar access
+
+* [Linear](#) – Project & issue tracking
+
+* [Joggr](#) – Internal documentation
+
+* [AWS / Vercel / GCP](#) – Deployment & cloud infra
+
+* [Sentry / Datadog](#) – Monitoring and observability
+
+#### 🛠 Local Environment Setup
+
+You’ll be working across multiple codebases. Start by cloning and running each one locally using the linked setup guides. If anything breaks, ask your onboarding buddy or post in `#[enter-slack-channel]`.
 
 <table class="dashdraft-table">
   <tbody>
@@ -123,21 +70,10 @@ You’ll be working across multiple codebases. Start by cloning and running each
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend-app</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Main user-facing web application</p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">api-service</code></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Core backend API</p>
+        <p class="dashdraft-paragraph">Our React-based UI</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
@@ -145,10 +81,10 @@ You’ll be working across multiple codebases. Start by cloning and running each
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">auth-service</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">backend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Authentication &#x26; user sessions</p>
+        <p class="dashdraft-paragraph">API and core logic</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
@@ -156,10 +92,10 @@ You’ll be working across multiple codebases. Start by cloning and running each
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">admin-dashboard</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">infra</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Internal admin tool</p>
+        <p class="dashdraft-paragraph">Infrastructure-as-code</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
@@ -168,13 +104,9 @@ You’ll be working across multiple codebases. Start by cloning and running each
   </tbody>
 </table>
 
-### 🚀 Make Your First Contribution
+#### 🚀 Make Your First Contribution
 
-Now that your environments are running, it’s time to make your first change in one of the repos. Pick a small task — a bug fix, content tweak, or cleanup — and open a pull request. The goal is to get familiar with our workflow and how we work across repos.
-
-### 📂 Supporting Guides (Per Repo)
-
-Each repo has its own setup instructions, contribution process, and deployment flow. Use the links below to reference the right docs as you go:
+Now that your environment is set up, it’s time to make your first real change. It doesn’t have to be big, just something that goes through the full workflow. Open a pull request (PR) and request a review from your onboarding buddy or tech lead. Use the links below to follow each repo’s contribution guidelines and PR process.
 
 <table class="dashdraft-table">
   <tbody>
@@ -194,166 +126,86 @@ Each repo has its own setup instructions, contribution process, and deployment f
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend-app</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Deploy Guide</a></p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">api-service</code></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Deploy Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">auth-service</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">backend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Deploy Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">admin-dashboard</code></p>
+        <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">infra</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View Deploy Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
       </td>
     </tr>
   </tbody>
 </table>
 
-> 📌 Not all deploys are the same — some use CI/CD, some are manual, some require approvals. Always check the repo-specific deployment guide before shipping anything.
+### 📅 **Day 2: Contributing with Confidence**
 
-### 🧭 Shared References (Global)
+With your environment ready and your first PR in motion, today is all about building fluency in how we code, collaborate, and support production systems.
 
-If you need broader context while working:
+#### 📚 Reference Hub
 
-* 🧱 [Architecture Overview](#)
+Use these guides to get broader context on the code, systems, and people you’ll be working with:
 
-* 🧑‍🎨 [Code Style Guide](#)
+* 🧱 [**Architecture Overview**](#link-to-architecture-overview) – High-level system diagrams & key decisions
 
-> 💬 Questions? Reach out to your onboarding buddy or post in `#dev-support`.
+* 🧑‍🎨 [**Code Style Guide**](#link-to-code-style-guide) – Linting, formatting, naming conventions
 
-## 📅 Day 2 Task List
+* 📦 [**Product Overview**](#link-to-product-overview) – What we build and who it’s for
 
-### 🔄 Working in Our Development Workflow
+* 👥 [**Team Overview**](#link-to-team-overview) – Who’s who, teams, and org structure
 
-With your first PR complete, it’s time to get familiar with how we work day-to-day.
+***
 
-<table class="dashdraft-table">
-  <tbody>
-    <tr class="dashdraft-table-row">
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Workflow Guide</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Description</p>
-      </th>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Sprint &#x26; Issue Workflow</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">How we plan, assign, and track work</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Git Workflow</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Branching strategy and release process</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Testing &#x26; Review Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Writing tests and submitting high-quality PRs</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deployment Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">How to ship code to staging/production</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+#### 🔄 Working in Our Development Workflow
 
-### 🔔 Preparing for On-Call Support
+Get familiar with how we work day-to-day—from planning and standups to code delivery:
 
-Once you're contributing confidently, the next goal is to be ready to support the systems you work on.
+* [**Sprint & Issue Workflow**](#link-to-sprint-workflow) – How we plan, assign, and track work
 
-<table class="dashdraft-table">
-  <tbody>
-    <tr class="dashdraft-table-row">
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">On-Call Preparation</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Description</p>
-      </th>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Incident Response Playbook</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">How we handle outages and escalations</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Logging &#x26; Monitoring Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Tools for debugging and observability</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Debugging &#x26; Access Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Dashboards, logs, and tools you’ll use</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+* [**Software Development Process**](#link-to-dev-process) – How features move from idea to development to production
+
+* [**Meeting & Team Ceremonies**](#link-to-meeting-ceremonies) – Standups, sprint planning, retros, and how/when we communicate as a team
+
+#### 🔔 Getting On-Call Ready
+
+As you grow more comfortable, it’s important to start preparing for production support responsibilities. These docs walk you through the tools and processes we use:
+
+* [**Incident Response Playbook**](#link-to-incident-playbook) – How we handle outages and escalations
+
+* [**Logging & Monitoring Guide**](#link-to-logging-monitoring-guide) – Tools for observability and debugging
+
+* [**Debugging & Access Guide**](#link-to-debugging-access-guide) – Dashboards, logs, and tools you’ll use
 
 <!-- @joggr:editLink(fcd57b32-dd26-4e18-a4ae-397acf560633):start -->
 ---
