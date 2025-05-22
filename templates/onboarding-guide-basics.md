@@ -177,9 +177,6 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph">Repo</p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">README</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">CONTRIBUTING.md</p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
@@ -189,9 +186,6 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend</code></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
@@ -205,9 +199,6 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">backend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
@@ -217,9 +208,6 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">infra</code></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
