@@ -219,6 +219,18 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
   </tbody>
 </table>
 
+# What's needed to create this onboarding guide?
+
+* Architecture Overview
+
+* Setup Guides for 3 repos
+
+* Contribution Guides for 3 repos
+
+* Deployment Guides for 3 repos
+
+Use Joggr's AI Generation to help create those docs.
+
 <!-- @joggr:editLink(d5a30697-c4af-4404-ad58-83edf6c65b69):start -->
 ---
 <a href="https://app.joggr.io/app/documents/d5a30697-c4af-4404-ad58-83edf6c65b69/edit">
