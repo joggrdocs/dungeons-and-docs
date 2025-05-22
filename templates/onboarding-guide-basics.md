@@ -138,7 +138,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">React-based UI</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">View README</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -149,7 +149,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">API and core logic</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">View README</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -160,7 +160,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">Infrastructure-as-code</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">View README</a></p>
       </td>
     </tr>
   </tbody>
@@ -168,7 +168,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
 
 ### 🚀 Make Your First Contribution
 
-Now that you’re set up, make your first real change. It doesn’t need to be big—just meaningful. Open a pull request (PR) and request a review from your buddy or tech lead.
+Now that you’re set up, make your first real change. It doesn’t need to be big—just meaningful. Open a pull request (PR) and request a review from your buddy and/or tech lead.
 
 <table class="dashdraft-table">
   <tbody>
@@ -191,13 +191,13 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -205,13 +205,13 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">backend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -219,13 +219,13 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">infra</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/setup-local-environment.md">README</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
   </tbody>
