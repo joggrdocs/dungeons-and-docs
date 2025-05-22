@@ -168,7 +168,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
 
 ### 🚀 Make Your First Contribution
 
-Now that you’re set up, make your first real change. It doesn’t need to be big—just meaningful. Open a pull request (PR) and request a review from your buddy and/or tech lead.
+Now that you’re set up, make your first real change. It doesn’t need to be big, just meaningful. Open a pull request (PR) and request a review from your buddy and/or tech lead.
 
 <table class="dashdraft-table">
   <tbody>
