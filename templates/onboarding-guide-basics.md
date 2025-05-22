@@ -104,10 +104,10 @@ Make sure you have access to the following systems. Ask your onboarding buddy if
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><span data-name="bricks" class="dashdraft-emoji" data-type="emoji">🧱</span> <a target="_blank" rel="noopener" class="dashdraft-link" href="#">Architecture Overview</a></p>
+        <p class="dashdraft-paragraph"><span data-name="bricks" class="dashdraft-emoji" data-type="emoji">🧱</span> <a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/architecture/service-architecture.md">Architecture Overview</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">System diagrams &#x26; key technical decisions</p>
+        <p class="dashdraft-paragraph">Gain a high-level understanding of how our systems are structured. This guide covers key components, service interactions, &#x26; data flow.</p>
       </td>
     </tr>
   </tbody>
