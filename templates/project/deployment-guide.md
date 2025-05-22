@@ -6,48 +6,84 @@
 
 Happy documenting! 🚀  
 -->
-# 🚀 **Deployment Guide**
+# 🚀 Deployment Guide – [Project Name]
 
-## **Environments**
-
-| Environment | Description                                      | URL                     |
-|------------|--------------------------------------------------|-------------------------|
-| **Staging** | Pre-production testing environment.            | staging.example.com     |
-| **Production** | Live environment.                           | production.example.com  |
-| **Sandbox** | Rarely used, but available for experimentation. | sandbox.example.com     |
+## 📦 Overview
+Briefly describe what this project does and what deploying it accomplishes.  
+> Example: "This service handles user authentication and authorization. Deployment pushes changes to the production environment via Vercel."
 
 
-## **Deployment Steps (GitHub Actions)**
+## 🧱 Prerequisites
 
-1. Push changes to the repository to trigger **GitHub Actions**.
+- Access to [deployment platform] (e.g., Vercel, AWS, GCP)
+- Necessary environment variables set (see `.env.example`)
 
-2. The workflow runs tests, builds, and packages the application.
 
-3. If tests pass, the deployment is pushed to **staging**.
+## 🔁 Deployment Environments
 
-4. After verification, an **approval step** is required for **production deployment**.
+| Environment | URL                        | Branch     | Notes                   |
+|-------------|-----------------------------|------------|-------------------------|
+| Development | https://dev.example.com     | `main`     | Auto-deploys on push    |
+| Staging     | https://staging.example.com | `staging`  | For pre-prod testing    |
+| Production  | https://example.com         | `release`  | Manual approval required |
 
-5. **Tag the release** before deploying to production.
 
-```mermaid
-graph LR;
-    A[📌 Code Commit] -->|🚀 GitHub Actions Triggered| B[🛠️ Run Tests];
-    B -->|📦 Build & Package| C[🚀 Deploy to Staging];
-    C -->|✅ Verification| D[🏷️ Tag Release & Approve Deployment];
-    D -->|🚀 Deploy to Production| E[🎉 Success];
-    D -->|❌ Failure| F[🔄 Rollback];
+## 🚀 How to Deploy
+
+### Option 1: Auto-deploy via CI/CD
+
+> Triggered when changes are pushed to the corresponding branch.
+
+1. Push your code to the correct branch (`main`, `staging`, or `release`)
+2. CI pipeline builds and deploys automatically
+3. Monitor deployment status in [CI/CD dashboard]
+
+### Option 2: Manual Deployment (e.g., using Vercel CLI)
+
+```bash
+# Authenticate if needed
+vercel login
+
+# Deploy preview or production
+vercel --prod
 ```
 
-## 🔄 **Rollback Plan**
+## ⚙️ Environment Variables
 
-* Identify the issue and confirm rollback necessity.
+Create a `.env` file using `.env.example` as a reference. Below are the required variables:
 
-* Use **GitHub Actions rollback workflow** to revert to the previous stable release.
+| Variable Name     | Description                                      | Required In        |
+|-------------------|--------------------------------------------------|--------------------|
+| `DATABASE_URL`    | Postgres connection string                       | All environments   |
+| `API_KEY`         | External API key (e.g., Stripe, SendGrid)        | Staging, Production |
+| `JWT_SECRET`      | Secret key for token encryption                  | All environments   |
+| `NODE_ENV`        | Application mode (`development`, `production`)   | All environments   |
+| `LOG_LEVEL`       | Logging verbosity (`info`, `debug`, `error`)     | All environments   |
+| `FRONTEND_URL`    | Public URL of the frontend (for CORS, redirects) | All environments   |
 
-```mermaid
-graph LR;
-    A[🚨 Issue Detected] -->|🔍 Assess Impact| B[✅ Confirm Necessity];
-    B -->|⚙️ Run Script| C[🔄 Trigger Rollback Workflow];
-    C -->|🔬 Run Tests| D[✅ Validate Rollback];
-    D -->|📝 Post-Mortem| E[📄 Document & Improve];
-```
+> 💡 Always keep secrets out of version control. Use a secure secrets manager or CI/CD environment settings when deploying.
+
+
+## 🔍 Verifying a Deployment
+
+- Visit the deployed URL and verify core functionality
+- Check logs using [Sentry / Datadog / Cloud Logs]
+- Run smoke tests (manual or automated)
+- Confirm integration with dependent services (e.g., auth, database, APIs)
+
+
+## 🧯 Rollback Instructions
+
+1. Identify the previous successful deployment (via dashboard or Git SHA)
+2. Revert the branch using Git:
+   ```bash
+   git revert <commit_sha>
+   git push origin <branch>
+   ```
+3. Or re-deploy the last known good build via your CI/CD or platform dashboard
+4. Verify the rollback and notify the team
+
+
+## 📞 Need Help?
+
+If you run into problems: 💬 Post in `#dev-infra` or your team’s Slack channel
