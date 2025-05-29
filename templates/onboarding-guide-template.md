@@ -121,7 +121,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">React-based UI</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph">View README</p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -132,7 +132,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">API and core logic</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph">View README</p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -143,7 +143,7 @@ You’ll be working across multiple codebases. Start by cloning and running each
         <p class="dashdraft-paragraph">Infrastructure-as-code</p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">View README</a></p>
+        <p class="dashdraft-paragraph">View README</p>
       </td>
     </tr>
   </tbody>
@@ -160,9 +160,6 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph">Repo</p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">README</p>
-      </th>
-      <th class="dashdraft-table-header" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">CONTRIBUTING.md</p>
       </th>
       <th class="dashdraft-table-header" colspan="1" rowspan="1">
@@ -174,13 +171,10 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">frontend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -188,13 +182,10 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">backend</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
     <tr class="dashdraft-table-row">
@@ -202,13 +193,10 @@ Now that you’re set up, make your first real change. It doesn’t need to be b
         <p class="dashdraft-paragraph"><code class="dashdraft-code-inline">infra</code></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">README</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/contribution-guidelines.md">Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Deploy</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/project/deployment-guide.md">Deploy</a></p>
       </td>
     </tr>
   </tbody>
@@ -232,7 +220,7 @@ Broaden your understanding of our codebase and team structure
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><span data-name="bricks" class="dashdraft-emoji" data-type="emoji">🧱</span> <a target="_blank" rel="noopener" class="dashdraft-link" href="#">Architecture Overview</a></p>
+        <p class="dashdraft-paragraph"><span data-name="bricks" class="dashdraft-emoji" data-type="emoji">🧱</span> <a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/architecture/service-architecture.md">Architecture Overview</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">System diagrams &#x26; key technical decisions</p>
@@ -240,7 +228,7 @@ Broaden your understanding of our codebase and team structure
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><span data-name="artist" class="dashdraft-emoji" data-type="emoji">🧑‍🎨</span> <a target="_blank" rel="noopener" class="dashdraft-link" href="#">Code Style Guide</a></p>
+        <p class="dashdraft-paragraph"><span data-name="artist" class="dashdraft-emoji" data-type="emoji">🧑‍🎨</span> <a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/code-style.md">Code Style Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Formatting, linting, naming conventions</p>
@@ -248,7 +236,7 @@ Broaden your understanding of our codebase and team structure
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><span data-name="package" class="dashdraft-emoji" data-type="emoji">📦</span> <a target="_blank" rel="noopener" class="dashdraft-link" href="#">Product Overview</a></p>
+        <p class="dashdraft-paragraph"><span data-name="package" class="dashdraft-emoji" data-type="emoji">📦</span> <a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/team/product-overview.md">Product Overview</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">What we build and who it’s for</p>
@@ -256,7 +244,7 @@ Broaden your understanding of our codebase and team structure
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><span data-name="busts_in_silhouette" class="dashdraft-emoji" data-type="emoji">👥</span> <a target="_blank" rel="noopener" class="dashdraft-link" href="#">Team Overview</a></p>
+        <p class="dashdraft-paragraph"><span data-name="busts_in_silhouette" class="dashdraft-emoji" data-type="emoji">👥</span> <a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/team/team-overview.md">Team Overview</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Org structure and team contacts</p>
@@ -281,7 +269,7 @@ Learn how we collaborate, plan, and ship code effectively:
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Sprint &#x26; Issue Workflow</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/sprint-and-issue-workflow.md">Sprint &#x26; Issue Workflow</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">How we plan, assign, and track work</p>
@@ -289,7 +277,7 @@ Learn how we collaborate, plan, and ship code effectively:
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Software Development Process</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/software-development.md">Software Development Process</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">From idea to feature delivery</p>
@@ -297,7 +285,7 @@ Learn how we collaborate, plan, and ship code effectively:
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Meeting &#x26; Team Ceremonies</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/meeting-ceremonies.md">Meeting &#x26; Team Ceremonies</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Standups, sprint planning, retros, etc.</p>
@@ -322,7 +310,7 @@ As you ramp up, you’ll also begin learning how to support the systems you cont
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Incident Response Playbook</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/incident-management.md">Incident Response Playbook</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">How we handle outages and escalations</p>
@@ -330,18 +318,10 @@ As you ramp up, you’ll also begin learning how to support the systems you cont
     </tr>
     <tr class="dashdraft-table-row">
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Logging &#x26; Monitoring Guide</a></p>
+        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener noreferrer" class="dashdraft-link" href="https://github.com/joggrdocs/dungeons-and-docs/blob/main/templates/standards/logging-and-monitoring.md">Logging &#x26; Monitoring Guide</a></p>
       </td>
       <td class="dashdraft-table-cell" colspan="1" rowspan="1">
         <p class="dashdraft-paragraph">Observability tools (logs, metrics, alerts)</p>
-      </td>
-    </tr>
-    <tr class="dashdraft-table-row">
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph"><a target="_blank" rel="noopener" class="dashdraft-link" href="#">Debugging &#x26; Access Guide</a></p>
-      </td>
-      <td class="dashdraft-table-cell" colspan="1" rowspan="1">
-        <p class="dashdraft-paragraph">Dashboards, traces, and issue investigation tools</p>
       </td>
     </tr>
   </tbody>
